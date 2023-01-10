@@ -54,5 +54,8 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "@typescript-eslint/utils": "5.47.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "random-hex": "^1.0.2"
+  }
 }
