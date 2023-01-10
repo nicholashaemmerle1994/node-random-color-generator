@@ -10,7 +10,7 @@ const chosenColor = randomColor({
 const ranHex = randomColor();
 const ranCol = chalk.hex(ranHex);
 const userInput = (string) => {
-  console.log(chalk.hex(chosenColor).bold(string));
+  console.log(chalk.hex(chosenColor).italic(string));
 };
 
 if (process.argv[2] === undefined) {
