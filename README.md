@@ -17,7 +17,7 @@ $ node index.js
 ###############################`
 ```
 
-Generate a box with chose color and luminosity
+Generate a box with a chosen color and luminosity
 
 First you have to enter the color you'd like and after the color you have to choose the luminosity
 The luminosity there is "dark" and "light" available.
