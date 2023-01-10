@@ -1,3 +1,1 @@
 # Random Color Generator
-
-gt
