@@ -1,18 +1,40 @@
 import chalk from 'chalk';
-import randomHex from 'random-hex';
+import randomColor from 'randomcolor';
 
-const ranHex = randomHex.generate();
+const userColor = process.argv[2];
+const userLum = process.argv[3];
+const chosenColor = randomColor({
+  luminosity: userLum,
+  hue: userColor,
+});
+const ranHex = randomColor();
 const ranCol = chalk.hex(ranHex);
+const userInput = (string) => {
+  console.log(chalk.hex(chosenColor).bold(string));
+};
 
-console.log(
-  ranCol(`
-###############################
-###############################
-###############################
-#####                     #####
-#####        ${ranHex}      #####
-#####                     #####
-###############################
-###############################
-###############################`),
-);
+if (process.argv[2] === undefined) {
+  console.log(
+    ranCol(`
+  ###############################
+  ###############################
+  ###############################
+  #####                     #####
+  #####        ${ranHex}      #####
+  #####                     #####
+  ###############################
+  ###############################
+  ###############################`),
+  );
+} else {
+  userInput(`
+##############################
+##############################
+##############################
+########              ########
+########   ${chosenColor}    ########
+########              ########
+##############################
+##############################
+##############################`);
+}

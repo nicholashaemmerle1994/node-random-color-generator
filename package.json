@@ -56,6 +56,6 @@
   },
   "dependencies": {
     "chalk": "^5.2.0",
-    "random-hex": "^1.0.2"
+    "randomcolor": "^0.6.2"
   }
 }

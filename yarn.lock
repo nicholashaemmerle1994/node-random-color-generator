@@ -4048,10 +4048,10 @@ quick-lru@^4.0.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
-random-hex@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/random-hex/-/random-hex-1.0.2.tgz#17b5524413455ddb710c8c4846a11ab7195bf49f"
-  integrity sha512-MZa4hZIAFdVV/mzB1YZjdwrjzsjuYzR7gY1R9GDCQqGJYbbyQHp9+uS3T3vmhYM+GagELvufkE1eD0T1nSS1uQ==
+randomcolor@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/randomcolor/-/randomcolor-0.6.2.tgz#7a57362ae1a1278439aeed2c15e5deb8ea33f56d"
+  integrity sha512-Mn6TbyYpFgwFuQ8KJKqf3bqqY9O1y37/0jgSK/61PUxV4QfIMv0+K2ioq8DfOjkBslcjwSzRfIDEXfzA9aCx7A==
 
 react-is@^16.13.1:
   version "16.13.1"
